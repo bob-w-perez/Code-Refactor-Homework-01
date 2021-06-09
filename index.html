@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!-- updated title element and added heart-shaped favicon to browser tab -->
+    <title>Horiseon</title>
+    <link rel="icon" type="image/jpg" href="assets/images/heart.jpg"/>
 </head>
 
 <body>
-    <div class="header">
+    <!-- replaced 'div' tag with semantically appropriate 'header' -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!-- replaced 'div' tag with semantically appropriate 'nav'-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,9 +26,10 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
+        </nav>
+    </header>
+    <!-- replaced 'div' tag for the hero image with semantically appropriate 'section' and changed 'hero' attribute from class to id-->
+    <section id="hero"></section>
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
