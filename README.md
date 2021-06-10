@@ -22,6 +22,10 @@ replaced 'div' tag with semantically appropriate 'footer
 added 'alt' attributes to the 3 images in main sections
 
 added 'alt' attributes to the 3 images in aside sections
+
+changed 'h2' tag in footer to 'h4' to follow sequential ordering
+
+added appropriate 'id' attribute to first section to make the nav link function correctly
  
 
 
@@ -36,3 +40,6 @@ replaced 'div' selectors with 'nav' to reflect changes made in HTML
 changed hero from a class selector to an id selector to reflect changes made in HTML
 
 removed class selectors from both 'footer' declarations to reflect changes made in HTML
+
+changed 'footer h2' selector to 'footer h4' to reflect changes made in HTML
+
