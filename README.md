@@ -1,18 +1,19 @@
-# Code-Refactor-Homework-01
+# Code Refactoring Homework-01
+
+- This project was a refactoring of a marketing agencies webpage to clean up the CSS code and apply semantic standards to the HTML tags.
+## Installation
+
+go to [https://github.com/bob-w-perez/Code-Refactor-Homework-01](https://github.com/bob-w-perez/Code-Refactor-Homework-01) to view the files and read about the changes
+
+## Usage
+![screenshot](https://github.com/bob-w-perez/Code-Refactor-Homework-01/blob/main/assets/images/Screenshot.jpg "Screenshot")
+
+go to [https://bob-w-perez.github.io/Code-Refactor-Homework-01/](https://bob-w-perez.github.io/Code-Refactor-Homework-01/) for the live webpage
+
+* BONUS: go to [https://bob-w-perez.github.io/Homework-01-flex/](https://bob-w-perez.github.io/Homework-01-flex/) for a version where scaling issues are fixed
 
 
-- This project was a refactoring of a marketing agencies webpage to clean up the code and
-  apply semantic standards to the HTML tags.
-
-- link to project: https://bob-w-perez.github.io/Code-Refactor-Homework-01/
-
-***********************************************************************************
-**** NOT PART OF PROJECT (BONUS?) LINK TO FLEX VERSION TO FIX DISPLAY PROBLEMS ****
-      *********   https://bob-w-perez.github.io/Homework-01-flex/   *********
-			RESIZE THE WINDOW AND SEE WHAT HAPPENS!
-**********************************************************************************
-
-
+## Changes Made
 -- Changes made to index.html
 
 ----- replaced generic 'div' tags with more descriptive alternatives such as 'main', 'aside',
@@ -51,3 +52,30 @@
 ----- each element of the same type in the 'main' and 'aside' sections had the same CSS parameters,
       so the CSS declarations were consolidated to improve readability and make the code neater
 
+
+
+## Contributing
+Solo project for GATech Coding Bootcamp
+
+## License
+MIT License
+
+Copyright (c) 2021 Robert Perez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
