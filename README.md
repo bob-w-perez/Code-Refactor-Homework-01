@@ -1,45 +1,47 @@
 # Code-Refactor-Homework-01
 
 
-Changes to HTML code:
+- This project was a refactoring of a marketing agencies webpage to clean up the code and
+  apply semantic standards to the HTML tags.
 
-updated title element and added heart-shaped favicon to browser tab
-
-replaced 'div' tag with semantically appropriate 'header'
-
-replaced 'div' tag for the hero image with semantically appropriate 'figure' and changed 'hero' attribute from class to id
-
-replaced 'div' tag with semantically appropriate 'main'
-
-replaced 'div' tags with semantically appropriate 'section' for each of the 3 main sections 
-
-replaced 'div' tag with semantically appropriate 'aside' since this content appears as a sidebar
-
-replaced 'div' tags with semantically appropriate 'section' for each of the 3 sections in the sidebar
-
-replaced 'div' tag with semantically appropriate 'footer
-
-added 'alt' attributes to the 3 images in main sections
-
-added 'alt' attributes to the 3 images in aside sections
-
-changed 'h2' tag in footer to 'h4' to follow sequential ordering
-
-added appropriate 'id' attribute to first section to make the nav link function correctly
- 
+- link to project: https://bob-w-perez.github.io/Code-Refactor-Homework-01/
 
 
-Changes to CSS code:
+-- Changes made to index.html
 
-removed class selectors from all 'header' declarations to reflect changes made in HTML
+----- replaced generic 'div' tags with more descriptive alternatives such as 'main', 'aside',
+      'nav', 'header', etc.
 
-color modified slightly to better highlight 'seo' in page heading
+----- by giving these elements distinct tags, many of their classes were made irrelevant and
+      were therefore removed
 
-replaced 'div' selectors with 'nav' to reflect changes made in HTML
+----- a broken link in the navbar was fixed by adding an 'id' attribute to its target element
 
-changed hero from a class selector to an id selector to reflect changes made in HTML
+----- 'alt' attributes were added to all of the pages images, except for the hero image which
+      was tagged as a figure to preserve its corresponding CSS declaration
 
-removed class selectors from both 'footer' declarations to reflect changes made in HTML
+----- unnecessary 'class' attributes were removed from the images, these classes only refered
+      to single elements and were redundant for the webpage's functionality
 
-changed 'footer h2' selector to 'footer h4' to reflect changes made in HTML
+----- a descriptive title and heart-shaped favicon were added to the browser tab
+
+----- the 'seo' in the Horiseon page heading were a different color to highlight the S.E.O
+      aspects of the company, but the difference was barely noticeable so the color was changed
+      to highlight it better
+
+
+-- Changes made to style.css
+
+----- class selectors that were no longer necessary due to the new element tags in the HTML
+      were replaced by the corresponding element selector
+
+----- some declarations had nested selectors that were unnecessarily long were shortened, the
+      elements these referred to only occured in one parent element so the extra specificity
+      was discarded in favor of conciseness while preserving functionality
+
+----- the order of some declarations were changed so that the order of the CSS page reflected
+      the same order as their corresponding HTML elements
+
+----- each element of the same type in the 'main' and 'aside' sections had the same CSS parameters,
+      so the CSS declarations were consolidated to improve readability and make the code neater
 
