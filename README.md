@@ -6,6 +6,12 @@
 
 - link to project: https://bob-w-perez.github.io/Code-Refactor-Homework-01/
 
+***********************************************************************************
+**** NOT PART OF PROJECT (BONUS?) LINK TO FLEX VERSION TO FIX DISPLAY PROBLEMS ****
+      *********   https://bob-w-perez.github.io/Homework-01-flex/   *********
+			RESIZE THE WINDOW AND SEE WHAT HAPPENS!
+**********************************************************************************
+
 
 -- Changes made to index.html
 
